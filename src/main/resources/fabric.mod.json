@@ -10,6 +10,7 @@
   "contributors": [],
   "contact": {},
   "license": "MIT",
+  "icon": "assets/shulkerstacker/box-closed128.png",
   "environment": "*",
   "entrypoints": {
     "main": [
