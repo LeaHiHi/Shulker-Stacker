@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinItem"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

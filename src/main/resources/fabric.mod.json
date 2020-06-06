@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "shulkerstacker",
+  "version": "${version}",
+  "name": "Shulker Stacker",
+  "description": "Make shulkers stack to 64",
+  "authors": [
+    "xradiusa"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/shulkerstacker/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "main.ShulkerStacker"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "shulkerstacker.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
